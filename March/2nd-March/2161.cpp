@@ -30,5 +30,6 @@ public:
 
 int main(){
     Solution s;
-    std::cout<<s.pivotArray({-3,4,3,2}, 2)<<endl;
+    vector<int> v = {-3,4,3,2};
+    std::cout<<s.pivotArray(v, 2)<<endl;
 }
