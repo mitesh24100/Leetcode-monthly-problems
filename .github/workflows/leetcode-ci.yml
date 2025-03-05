@@ -16,4 +16,4 @@ jobs:
         run: sudo apt update && sudo apt install -y g++ cmake
 
       - name: Compile C++ solutions
-        run: g++ -std=c++17 -o leetcode-monthly-problems src/*.cpp
+        run: g++ -std=c++17 -o leetcode_solutions $(find March -name "*.cpp")
