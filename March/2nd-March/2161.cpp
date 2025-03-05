@@ -1,11 +1,10 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Solution {
 public:
     vector<int> pivotArray(vector<int>& nums, int pivot) {
-        vector<int> less,equal,greater;
+        vector<int> less, equal, greater;
         for(int num: nums){
             if(num < pivot){
                 less.push_back(num);
