@@ -30,9 +30,5 @@ public:
 
 int main(){
     Solution s;
-    vector<int> v = {-3,4,3,2};
-    vector<int> answer = s.pivotArray(v, 2);
-    for(int num: answer){
-        std::cout<<num<<endl;
-    }
+    return 0;
 }
